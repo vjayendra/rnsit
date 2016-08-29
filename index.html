@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Welcome to RNSIT</title>
+  <link rel="icon" href="pics/rnslogo1.png" type="image/x-icon">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css"-->
+  <script type="text/javascript" src="js/v1.js"></script>
+  <script type="text/javascript" src="js/v11.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="v1.css">
+  <style type="text/css">
+  .affix {
+        position: fixed;`
+        top: 0;
+        width: 100%;
+        z-index: 5;
+    }
+  .affix > li{
+    padding: 8px;
+  } 
+  .affix + .container-fluid {
+        padding-top: 70px;
+    }
+  @media (max-width: 768px){
+    .affix{
+      data-offset: 40px;
+    }
+  }
+  </style> 
+
+</head>
+
+                      <!-- ******************** MAIN BODY *******************-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container topmost-nav">
+ <div class="row">
+  <nav id="top-nav" class="hidden-xs" style="background-color: #9575CD;">
+    <div>
+      <ul class="top-nav-small">
+        <li><a href="#blah">Alumni</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#">Infrastructure</a></li> 
+      </ul>
+    </div> 
+    <div >
+      <ul style="float: right;" class="top-nav-small">
+        <li><a href="#">Campus Life</a></li>
+        <li><a href="#">Co-Cirriculars</a></li>
+        <li><a href="man-clos.html" target="blank">Mandatory Disclosure</a></li> 
+      </ul>
+    </div>
+  </nav>
+</div> 
+</div>
+
+<div class="container college-name w3-indigo " >
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 college-name-logo">
+    <img class="hidden-xs" src="pics/rnslogo.png">
+    <img class="visible-xs-block" src="pics/rnslogo1.png">
+  </div>
+  <div class="col-xs-10 col-sm-8 col-md-8 col-lg-8">
+    <p id="welcome-note" style="" >Welcome to the<br>Official Website</p>
+    <h2 style="text-align: center;" class="hidden-xs"><b>RNS INSTITUTE OF TECHNOLOGY<br>ಆರ್.ಎನ್.ಎಸ್ &nbsp ಇನ್ಸ್ಟಿಟ್ಯೂಟ್ &nbsp ಆಫ್ &nbsp ತಂತ್ರಜ್ಞಾನ</b><br></h2>
+    <h4 style="text-align: center;color: #111;" class="hidden-xs">(AICTE Approved . NBA Accredited . VTU Affiliated)</h4>
+    <h5 style="text-align: center;" class="visible-xs-block">R.N.S.I.T<br>ಆರ್.ಎನ್.ಎಸ್.ನಾನು.ಟಿ</h5>
+  </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 college-name-logo hidden-xs">
+    <img src="pics/rnslogo.png">
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse w3-card-8" data-spy="affix" data-offset-top="210">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand visible-xs-block" href="#">Menu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-list nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#"class="visible-xs-block">Alumni</a></li>
+        <li><a href="#"class="visible-xs-block">Campus Life</a></li>
+        <li><a href="#"class="visible-xs-block">Mandatory Closure</a></li>
+        <li><a href="#"class="visible-xs-block">Co-Curriculars</a></li>
+      </ul>
+      <ul class="navbar-list nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+                                   <!--MAIN CAROUSEL-->
+
+<div id="top-carousel" class="container" style="width: 100%; padding: 0; position: static;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" style="position: static;">
+
+      <div class="item active">
+        <img src="pics/44.jpg" alt="Chania" width="100%" height="75%">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="pics/20.jpg" alt="Chania" width="100%" height="75%">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="pics/44.jpg" alt="Flower" width="100%" height="75%">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="pics/105.jpg" alt="Flower" width="100%" height="75%">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+                                             <!--ABOUT US-->
+
+<div id="about-us" class="about-us">
+
+  <div class="about-us-head col-xs-12 col-sm-12 col-md-12 col-lg-12 w3-indigo w3-card-4">
+    <p>About Us</p>
+  </div>
+
+  <div class="row">
+
+    <div class="about-us-image col-xs-12 col-sm-12 col-md-4 col-lg-4" align="center">
+      <img src="pics/DrRNS.jpg">
+      <div class="about-us-image-text">
+        <p class="hidden-xs"><b>Dr.R N SHETTY</b></p>
+        <p class="visible-xs-block"><b>Dr. RN Shetty</b></p>
+      </div>
+    </div>
+
+    <div class="about-us-details col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <p><b>
+      R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman,Dr. R.N. Shetty.
+      The Murudeshwar Group of Companies headed by Dr. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power & IT services and education.
+      The group has contributed significantly to the field of education. Education campus and environment has been provided in the top class to make students a friendly campus to maintain in the list of top AICTE approved engineering colleges in karnataka. A number of educational institutions are run by the R.N.Shetty Trust, with RNSIT one amongst them.
+      With a continuous desire to provide quality education to the society, the group has established RNSIT, an institution to nourish and produce the best of engineering talents in the country. RNSIT is one of the top AICTE approved engineering colleges in karnataka.</b>
+    </p>
+    </div>
+  
+  </div>    
+</div>
+
+                                            <!--ACADEMICS-->
+
+<div id="academics" class="academics w3-card-2 w3-light-blue">
+
+  <div class="academics-head col-xs-12 col-sm-12 col-md-12 col-lg-12 w3-indigo w3-card-4">
+    <p>Academics</p>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="row">
+
+      <div class="academics-details col-xs-12 col-sm-12 col-md-2 col-lg-2">
+        <p>The RNS Institute Of Technology comprises of 8 Departments.
+       R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman,Dr. R.N. Shetty.
+      The Murudeshwar Group of Companies headed by Dr. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power & IT services and education.
+      </div>
+
+
+      <div class="academics-department col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                                      <!--Department-Logo-Pics-->
+
+        <div id="academics-row1-holder" class="academics-row-holder">
+          <div id="academics-department-row1" class="row">
+            
+            <div id="civil" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image" >
+                <img src="pics/civilLogo.png" onclick="showdpt(0)">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Civil<br>Engineering</p>
+                  <p class="visible-xs-block">Civil</p>
+                </div>
+              </div>
+            </div>
+            <div id="cse" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/cseLogo.png" onclick="showdpt(1)">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Computer<br>Science</p>
+                  <p class="visible-xs-block">C.S.E</p>
+                </div>
+              </div>
+            </div>
+            <div id="ece" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/ecLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Electronics & Communications</p>
+                  <p class="visible-xs-block">E.C.E</p>
+                </div>
+              </div>
+            </div>
+            <div id="ele" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/eleLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Electrical Engineering</p>
+                  <p class="visible-xs-block">E.L.E</p>
+                </div>
+              </div>
+            </div>
+          
+          </div> 
+        </div>  
+      
+                                         
+
+        <div id="academics-row2-holder" class="academics-row-holder">
+          <div id="academics-department-row2" class="row">
+            
+            <div id="ise" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/iseLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Information<br>Sciences</p>
+                  <p class="visible-xs-block">I.S.E</p>
+                </div>
+              </div>
+            </div>
+            <div id="ite" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/iteLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Instrumentation Technology</p>
+                  <p class="visible-xs-block">I.T.E</p>
+                </div>
+              </div>
+            </div>
+            <div id="me" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/meLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Mechanical Engineering</p>
+                  <p class="visible-xs-block">M.E</p>
+                </div>
+              </div>
+            </div>
+            <div id="sciences" class="academics-department-holder col-lg-3 col-md-3 col-sm-6 col-xs-6" align="center">
+              <div class="academics-department-image">
+                <img src="pics/iteLogo.png">
+                <div class="academics-department-text">
+                  <p class="hidden-xs">Basic<br>Sciences</p>
+                  <p class="visible-xs-block">Sciences</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>  
+
+      </div>
+        
+    </div>
+  </div>
+</div> 
+
+                                       <!--ADMISSSIONS Divivsion-->
+
+<div id="admissions" style="z-index: 0;" class="admission-head col-xs-12 w3-card-2">
+
+  <div class="admission-head col-xs-12 col-sm-12 col-md-12 col-lg-12 w3-indigo w3-card-2">
+    <p>Admissions</p>
+  </div>
+
+  <div class="admission-detail w3-light-grey">
+    <p>Admission in the college can be taken through any of the two entrance exams</p>
+  </div>
+
+  <div class="row comedk-cet">
+
+    <div align="center" id="comedkbtn-holder" style="float: left;" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <a href="https://www.comedk.org" target="blank" style="text-decoration: none;">
+        <button id="comedkbtn" class="comedkbtn w3-red w3-card-4" style=" border-right: 1px solid #E6EBE6">ComedK</button>
+      </a>   
+    </div>
+    <div align="center" id="comedk-details" class="comedk-details col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h5>About COMEDK</h5>
+        The Karnataka Private Medical & Dental Colleges Association, in their endeavour to offer an effective, fair and objective testing procedure to determine merit of students seeking admission to the member institutions, have formed 
+        “<b>Consortium of Medical, Engineering and Dental Colleges of Karnataka</b>” (COMEDK).
+        <br>
+        COMEDK has been assigned the task of organising a common entrance test for the academic year 2015-2016.
+        COMEDK entrance test & publication of test score and rank list will be followed by centralized counseling (Single window system).
+        <br><br>
+        <b>Click the button to apply now!</b>
+    </div>
+    <div align="center" id="cetbtn-holder" style="float: right;" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <a href="http://kea.kar.nic.in" target="blank" style="text-decoration: none;">
+        <button id="cetbtn" class="cetbtn w3-red w3-card-4">CET</button>
+      </a>
+    </div>
+    <div align="center" id="cet-details" style="text-align: center; margin-top: -5%;" class="cet-details col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h5>About CET</h5>
+        The Government of Karnataka conducts Common Entrance Test (CET) for admission into various professional courses. The CET is generally conducted during Feb/March and the notification will appear in all leading newspapers.<br><br>
+        Click the button to apply now!
+    </div> 
+    <!--div id="admission-left-banner" class="left-banner w3-card-4 w3-indigo hidden-xs">
+      <p class="w3-text-white">A<br>D<br>M<br>I<br>S<br>S<br>I<br>O<br>N<br>S</p>
+    </div-->  
+  </div>
+
+  <div id="admission-detail" class="admission-detail row w3-light-grey w3-card-2">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="border-right: 1px solid #e6ebe6;">
+        <p><u>Contact</u><br><b>Mr.Ganapathi M Yaji<br>Registrar</b>,RNS Institute Of Technology</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="line-spacing: 1.5em;">
+        <p>
+          <span class="glyphicon glyphicon-earphone" style="padding: 8px;">
+          </span>&nbsp<b>+91 9449060402 , 9902155339</b><br>
+          <span class="glyphicon glyphicon-envelope" style="padding: 8px;">
+          </span>&nbsp&nbsp<b>yaji.shirali@gmail.com</b></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+                                            <!--FACILITIES-->
+
+<div id="facilities" class="facilities">
+
+  <div class="facilities-head col-xs-12 col-sm-12 col-md-12 col-lg-12 w3-indigo w3-card-2">
+    <p>Facilities</p>
+  </div>
+
+  <div class="facilities-details">
+
+      <div align="center" class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/bank-icon.png"></div>
+        <div class="facilities-details-text"><p>Bank</p></div>
+      </div>
+      <div class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/canteen-icon.png"></div>
+        <div class="facilities-details-text"><p>Canteen</p></div>
+      </div>
+      <div class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/health-care-icon.png"></div>
+        <div class="facilities-details-text"><p>Health-Care</p></div>
+      </div>
+      <div class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/hostel-icon.png"></div>
+        <div class="facilities-details-text"><p>Hostel</p></div>
+      </div>
+      <div class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/library-icon.png"></div>
+        <div class="facilities-details-text"><p>Library</p></div>
+      </div>
+      <div class="facilities-details-holder col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="facilities-details-image"><img src="pics/bus-icon.png"></div>
+        <div class="facilities-details-text"><p>Transport</p></div>
+      </div>  
+
+  </div>
+
+</div>
+ 
+                                          <!--CONTACT US - FOOTER-->
+
+<footer style="background-color: #222;" id="contact" class="contact ">
+  <div class="contact contact-us vj-xs-12 vj-sm-12 vj-md-6 vj-lg-6">
+    <h2><b>Contact Us</b></h2>
+      <address>College Campus<br>Rajarajeshwarinagar post,<br>Channasandra,<br>Bangalore - 560098<br>
+       Tel : <b>+91 80 28611880/1</b><br>
+       Fax : <b>+91 80 28611882</b>
+      </address>
+  </div>
+  <div class="contact map vj-xs-12 vj-sm-12 vj-md-6 vj-lg-6">
+    <h2><b>We are here</b></h2>
+    <div align="center" class="map-holder">
+      <div id="map" class="contact vj-xs-10 vj-sm-10 vj-md-12 vj-lg-12"></div>
+    </div>
+  </div>  
+</footer>                                       
+
+
+
+</body>
+</html>
